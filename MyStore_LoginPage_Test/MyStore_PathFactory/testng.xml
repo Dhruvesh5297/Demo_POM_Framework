@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="MyStore_LoginPage_Test" verbose="1" >
+ 
+ <listeners>
+<listener class-name="com.MyStore.qa.ExtentReport.ExtentReport"/>
+</listeners>
+ 
+  <test name="MyStore_Testcases">
+    <classes>
+      <class name="com.MyStore.qa.testcases.LoginPageTest"/>
+    
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-28T14:20:15 EDT" name="STS Assignment Automation Test" finished-at="2022-03-28T14:23:15 EDT" duration-ms="180352">
+    <groups>
+    </groups>
+    <test started-at="2022-03-28T14:20:15 EDT" name="MyStore_Testcases" finished-at="2022-03-28T14:23:15 EDT" duration-ms="180352">
+      <class name="com.MyStore.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:20:15 EDT" name="setup" finished-at="2022-03-28T14:20:20 EDT" duration-ms="5240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="EmailLabelTest()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:20:20 EDT" name="EmailLabelTest" finished-at="2022-03-28T14:20:20 EDT" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmailLabelTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:20:20 EDT" name="teardown" finished-at="2022-03-28T14:20:20 EDT" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:20:20 EDT" name="setup" finished-at="2022-03-28T14:20:25 EDT" duration-ms="4623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Link_forgotpasswd_test()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:20:25 EDT" name="Link_forgotpasswd_test" finished-at="2022-03-28T14:20:26 EDT" duration-ms="1267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Link_forgotpasswd_test -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:20:26 EDT" name="teardown" finished-at="2022-03-28T14:20:26 EDT" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:20:26 EDT" name="setup" finished-at="2022-03-28T14:20:31 EDT" duration-ms="4923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginWIth_ValidEmail_EmptyPasswd()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:20:31 EDT" name="LoginWIth_ValidEmail_EmptyPasswd" finished-at="2022-03-28T14:20:32 EDT" duration-ms="733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWIth_ValidEmail_EmptyPasswd -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:20:32 EDT" name="teardown" finished-at="2022-03-28T14:20:32 EDT" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:20:32 EDT" name="setup" finished-at="2022-03-28T14:20:36 EDT" duration-ms="4338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginWithValidCredentialTest()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:20:36 EDT" name="LoginWithValidCredentialTest" finished-at="2022-03-28T14:20:38 EDT" duration-ms="1873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithValidCredentialTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:20:38 EDT" name="teardown" finished-at="2022-03-28T14:20:38 EDT" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:20:38 EDT" name="setup" finished-at="2022-03-28T14:20:44 EDT" duration-ms="6250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginWith_EmptyEmail_EmptyPassswd()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:20:44 EDT" name="LoginWith_EmptyEmail_EmptyPassswd" finished-at="2022-03-28T14:20:46 EDT" duration-ms="1012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWith_EmptyEmail_EmptyPassswd -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:20:46 EDT" name="teardown" finished-at="2022-03-28T14:20:46 EDT" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:20:46 EDT" name="setup" finished-at="2022-03-28T14:20:51 EDT" duration-ms="5756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginWith_EmptyEmail_InvalidPasswd()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:20:51 EDT" name="LoginWith_EmptyEmail_InvalidPasswd" finished-at="2022-03-28T14:20:52 EDT" duration-ms="766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWith_EmptyEmail_InvalidPasswd -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:20:52 EDT" name="teardown" finished-at="2022-03-28T14:20:52 EDT" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:20:52 EDT" name="setup" finished-at="2022-03-28T14:21:07 EDT" duration-ms="14266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginWith_EmptyEmail_ValidPasswd()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:21:07 EDT" name="LoginWith_EmptyEmail_ValidPasswd" finished-at="2022-03-28T14:21:08 EDT" duration-ms="1584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWith_EmptyEmail_ValidPasswd -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:21:08 EDT" name="teardown" finished-at="2022-03-28T14:21:08 EDT" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:21:08 EDT" name="setup" finished-at="2022-03-28T14:21:21 EDT" duration-ms="12635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginWith_Enterbtn_test()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:21:21 EDT" name="LoginWith_Enterbtn_test" finished-at="2022-03-28T14:21:33 EDT" duration-ms="12123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWith_Enterbtn_test -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:21:33 EDT" name="teardown" finished-at="2022-03-28T14:21:33 EDT" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:21:33 EDT" name="setup" finished-at="2022-03-28T14:21:47 EDT" duration-ms="14245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginWith_InvalidEmail_EmptyPasswd()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:21:47 EDT" name="LoginWith_InvalidEmail_EmptyPasswd" finished-at="2022-03-28T14:21:50 EDT" duration-ms="2741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWith_InvalidEmail_EmptyPasswd -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:21:50 EDT" name="teardown" finished-at="2022-03-28T14:21:50 EDT" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:21:50 EDT" name="setup" finished-at="2022-03-28T14:21:57 EDT" duration-ms="6927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginWith_InvalidEmail_InvalidPasswd()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:21:57 EDT" name="LoginWith_InvalidEmail_InvalidPasswd" finished-at="2022-03-28T14:21:59 EDT" duration-ms="1360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWith_InvalidEmail_InvalidPasswd -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:21:59 EDT" name="teardown" finished-at="2022-03-28T14:21:59 EDT" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:21:59 EDT" name="setup" finished-at="2022-03-28T14:22:07 EDT" duration-ms="8227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginWith_InvalidEmail_ValidPasswd()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:22:07 EDT" name="LoginWith_InvalidEmail_ValidPasswd" finished-at="2022-03-28T14:22:09 EDT" duration-ms="2314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWith_InvalidEmail_ValidPasswd -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:22:09 EDT" name="teardown" finished-at="2022-03-28T14:22:09 EDT" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:22:09 EDT" name="setup" finished-at="2022-03-28T14:22:15 EDT" duration-ms="6056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginWith_ValidCredentialinCAPS()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:22:15 EDT" name="LoginWith_ValidCredentialinCAPS" finished-at="2022-03-28T14:22:22 EDT" duration-ms="6500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWith_ValidCredentialinCAPS -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:22:22 EDT" name="teardown" finished-at="2022-03-28T14:22:22 EDT" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:22:22 EDT" name="setup" finished-at="2022-03-28T14:22:35 EDT" duration-ms="13484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginWith_ValidEmail_InvalidPasswd()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:22:35 EDT" name="LoginWith_ValidEmail_InvalidPasswd" finished-at="2022-03-28T14:22:44 EDT" duration-ms="8029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWith_ValidEmail_InvalidPasswd -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:22:44 EDT" name="teardown" finished-at="2022-03-28T14:22:44 EDT" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:22:44 EDT" name="setup" finished-at="2022-03-28T14:22:54 EDT" duration-ms="10807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="PasswdLabelTest()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:22:54 EDT" name="PasswdLabelTest" finished-at="2022-03-28T14:22:54 EDT" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PasswdLabelTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:22:54 EDT" name="teardown" finished-at="2022-03-28T14:22:55 EDT" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:22:55 EDT" name="setup" finished-at="2022-03-28T14:23:01 EDT" duration-ms="5984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SubheadingTest()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:23:01 EDT" name="SubheadingTest" finished-at="2022-03-28T14:23:01 EDT" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubheadingTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:23:01 EDT" name="teardown" finished-at="2022-03-28T14:23:01 EDT" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:23:01 EDT" name="setup" finished-at="2022-03-28T14:23:10 EDT" duration-ms="8815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="signinbtn_enabled_test()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:23:10 EDT" name="signinbtn_enabled_test" finished-at="2022-03-28T14:23:10 EDT" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signinbtn_enabled_test -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:23:10 EDT" name="teardown" finished-at="2022-03-28T14:23:10 EDT" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:23:10 EDT" name="setup" finished-at="2022-03-28T14:23:15 EDT" duration-ms="5169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="PageheadingTest()[pri:1, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:23:15 EDT" name="PageheadingTest" finished-at="2022-03-28T14:23:15 EDT" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageheadingTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.MyStore.qa.testcases.LoginPageTest@2a798d51]" started-at="2022-03-28T14:23:15 EDT" name="teardown" finished-at="2022-03-28T14:23:15 EDT" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.MyStore.qa.testcases.LoginPageTest -->
+    </test> <!-- MyStore_Testcases -->
+  </suite> <!-- STS Assignment Automation Test -->
+</testng-results>

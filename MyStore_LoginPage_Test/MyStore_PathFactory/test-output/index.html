@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-STS_Assignment_Automation_Test" class="navigator-link">
+              <span class="suite-name border-passed">STS Assignment Automation Test</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-STS_Assignment_Automation_Test" class="navigator-link ">
+                    <span>C:\Users\dhruv\eclipse-workspace\myproject\bin\MyStore_PathFactory\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-STS_Assignment_Automation_Test" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-STS_Assignment_Automation_Test" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-STS_Assignment_Automation_Test" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-STS_Assignment_Automation_Test" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-STS_Assignment_Automation_Test" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-STS_Assignment_Automation_Test" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">17 methods,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-STS_Assignment_Automation_Test" class="hide-methods passed suite-STS_Assignment_Automation_Test"> (hide)</a> <!-- hide-methods passed suite-STS_Assignment_Automation_Test -->
+                      <a href="#" panel-name="suite-STS_Assignment_Automation_Test" class="show-methods passed suite-STS_Assignment_Automation_Test"> (show)</a> <!-- show-methods passed suite-STS_Assignment_Automation_Test -->
+                    </span>
+                    <div class="method-list-content passed suite-STS_Assignment_Automation_Test">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-STS_Assignment_Automation_Test" title="com.MyStore.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="EmailLabelTest">EmailLabelTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-STS_Assignment_Automation_Test" title="com.MyStore.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="Link_forgotpasswd_test">Link_forgotpasswd_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-STS_Assignment_Automation_Test" title="com.MyStore.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="LoginWIth_ValidEmail_EmptyPasswd">LoginWIth_ValidEmail_EmptyPasswd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-STS_Assignment_Automation_Test" title="com.MyStore.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="LoginWithValidCredentialTest">LoginWithValidCredentialTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-STS_Assignment_Automation_Test" title="com.MyStore.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="LoginWith_EmptyEmail_EmptyPassswd">LoginWith_EmptyEmail_EmptyPassswd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-STS_Assignment_Automation_Test" title="com.MyStore.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="LoginWith_EmptyEmail_InvalidPasswd">LoginWith_EmptyEmail_InvalidPasswd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-STS_Assignment_Automation_Test" title="com.MyStore.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="LoginWith_EmptyEmail_ValidPasswd">LoginWith_EmptyEmail_ValidPasswd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-STS_Assignment_Automation_Test" title="com.MyStore.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="LoginWith_Enterbtn_test">LoginWith_Enterbtn_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-STS_Assignment_Automation_Test" title="com.MyStore.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="LoginWith_InvalidEmail_EmptyPasswd">LoginWith_InvalidEmail_EmptyPasswd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-STS_Assignment_Automation_Test" title="com.MyStore.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="LoginWith_InvalidEmail_InvalidPasswd">LoginWith_InvalidEmail_InvalidPasswd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-STS_Assignment_Automation_Test" title="com.MyStore.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="LoginWith_InvalidEmail_ValidPasswd">LoginWith_InvalidEmail_ValidPasswd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-STS_Assignment_Automation_Test" title="com.MyStore.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="LoginWith_ValidCredentialinCAPS">LoginWith_ValidCredentialinCAPS</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-STS_Assignment_Automation_Test" title="com.MyStore.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="LoginWith_ValidEmail_InvalidPasswd">LoginWith_ValidEmail_InvalidPasswd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-STS_Assignment_Automation_Test" title="com.MyStore.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="PageheadingTest">PageheadingTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-STS_Assignment_Automation_Test" title="com.MyStore.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="PasswdLabelTest">PasswdLabelTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-STS_Assignment_Automation_Test" title="com.MyStore.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="SubheadingTest">SubheadingTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-STS_Assignment_Automation_Test" title="com.MyStore.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="signinbtn_enabled_test">signinbtn_enabled_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-STS_Assignment_Automation_Test -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-STS_Assignment_Automation_Test" class="panel STS_Assignment_Automation_Test">
+          <div class="suite-STS_Assignment_Automation_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.MyStore.qa.testcases.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="EmailLabelTest">
+                  </a> <!-- EmailLabelTest -->
+                  <span class="method-name">EmailLabelTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Link_forgotpasswd_test">
+                  </a> <!-- Link_forgotpasswd_test -->
+                  <span class="method-name">Link_forgotpasswd_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWIth_ValidEmail_EmptyPasswd">
+                  </a> <!-- LoginWIth_ValidEmail_EmptyPasswd -->
+                  <span class="method-name">LoginWIth_ValidEmail_EmptyPasswd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWithValidCredentialTest">
+                  </a> <!-- LoginWithValidCredentialTest -->
+                  <span class="method-name">LoginWithValidCredentialTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWith_EmptyEmail_EmptyPassswd">
+                  </a> <!-- LoginWith_EmptyEmail_EmptyPassswd -->
+                  <span class="method-name">LoginWith_EmptyEmail_EmptyPassswd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWith_EmptyEmail_InvalidPasswd">
+                  </a> <!-- LoginWith_EmptyEmail_InvalidPasswd -->
+                  <span class="method-name">LoginWith_EmptyEmail_InvalidPasswd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWith_EmptyEmail_ValidPasswd">
+                  </a> <!-- LoginWith_EmptyEmail_ValidPasswd -->
+                  <span class="method-name">LoginWith_EmptyEmail_ValidPasswd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWith_Enterbtn_test">
+                  </a> <!-- LoginWith_Enterbtn_test -->
+                  <span class="method-name">LoginWith_Enterbtn_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWith_InvalidEmail_EmptyPasswd">
+                  </a> <!-- LoginWith_InvalidEmail_EmptyPasswd -->
+                  <span class="method-name">LoginWith_InvalidEmail_EmptyPasswd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWith_InvalidEmail_InvalidPasswd">
+                  </a> <!-- LoginWith_InvalidEmail_InvalidPasswd -->
+                  <span class="method-name">LoginWith_InvalidEmail_InvalidPasswd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWith_InvalidEmail_ValidPasswd">
+                  </a> <!-- LoginWith_InvalidEmail_ValidPasswd -->
+                  <span class="method-name">LoginWith_InvalidEmail_ValidPasswd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWith_ValidCredentialinCAPS">
+                  </a> <!-- LoginWith_ValidCredentialinCAPS -->
+                  <span class="method-name">LoginWith_ValidCredentialinCAPS</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWith_ValidEmail_InvalidPasswd">
+                  </a> <!-- LoginWith_ValidEmail_InvalidPasswd -->
+                  <span class="method-name">LoginWith_ValidEmail_InvalidPasswd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PageheadingTest">
+                  </a> <!-- PageheadingTest -->
+                  <span class="method-name">PageheadingTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PasswdLabelTest">
+                  </a> <!-- PasswdLabelTest -->
+                  <span class="method-name">PasswdLabelTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SubheadingTest">
+                  </a> <!-- SubheadingTest -->
+                  <span class="method-name">SubheadingTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signinbtn_enabled_test">
+                  </a> <!-- signinbtn_enabled_test -->
+                  <span class="method-name">signinbtn_enabled_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-STS_Assignment_Automation_Test-class-passed -->
+        </div> <!-- panel STS_Assignment_Automation_Test -->
+        <div panel-name="test-xml-STS_Assignment_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\dhruv\eclipse-workspace\myproject\bin\MyStore_PathFactory\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;STS Assignment Automation Test&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.MyStore.qa.ExtentReport.ExtentReport&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;MyStore_Testcases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.MyStore.qa.testcases.LoginPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MyStore_Testcases --&gt;
+&lt;/suite&gt; &lt;!-- STS Assignment Automation Test --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-STS_Assignment_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for STS Assignment Automation Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">MyStore_Testcases (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-STS_Assignment_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for STS Assignment Automation Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-STS_Assignment_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for STS Assignment Automation Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_STS_Assignment_Automation_Test');
+function tableData_STS_Assignment_Automation_Test() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(17);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'LoginWith_Enterbtn_test')
+data.setCell(0, 2, 'com.MyStore.qa.testcases.LoginPageTest')
+data.setCell(0, 3, 12123);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'LoginWith_ValidEmail_InvalidPasswd')
+data.setCell(1, 2, 'com.MyStore.qa.testcases.LoginPageTest')
+data.setCell(1, 3, 8029);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'LoginWith_ValidCredentialinCAPS')
+data.setCell(2, 2, 'com.MyStore.qa.testcases.LoginPageTest')
+data.setCell(2, 3, 6500);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'LoginWith_InvalidEmail_EmptyPasswd')
+data.setCell(3, 2, 'com.MyStore.qa.testcases.LoginPageTest')
+data.setCell(3, 3, 2741);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'LoginWith_InvalidEmail_ValidPasswd')
+data.setCell(4, 2, 'com.MyStore.qa.testcases.LoginPageTest')
+data.setCell(4, 3, 2314);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'LoginWithValidCredentialTest')
+data.setCell(5, 2, 'com.MyStore.qa.testcases.LoginPageTest')
+data.setCell(5, 3, 1873);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'LoginWith_EmptyEmail_ValidPasswd')
+data.setCell(6, 2, 'com.MyStore.qa.testcases.LoginPageTest')
+data.setCell(6, 3, 1584);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'LoginWith_InvalidEmail_InvalidPasswd')
+data.setCell(7, 2, 'com.MyStore.qa.testcases.LoginPageTest')
+data.setCell(7, 3, 1360);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Link_forgotpasswd_test')
+data.setCell(8, 2, 'com.MyStore.qa.testcases.LoginPageTest')
+data.setCell(8, 3, 1267);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'LoginWith_EmptyEmail_EmptyPassswd')
+data.setCell(9, 2, 'com.MyStore.qa.testcases.LoginPageTest')
+data.setCell(9, 3, 1012);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'LoginWith_EmptyEmail_InvalidPasswd')
+data.setCell(10, 2, 'com.MyStore.qa.testcases.LoginPageTest')
+data.setCell(10, 3, 766);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'LoginWIth_ValidEmail_EmptyPasswd')
+data.setCell(11, 2, 'com.MyStore.qa.testcases.LoginPageTest')
+data.setCell(11, 3, 733);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'EmailLabelTest')
+data.setCell(12, 2, 'com.MyStore.qa.testcases.LoginPageTest')
+data.setCell(12, 3, 34);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'PasswdLabelTest')
+data.setCell(13, 2, 'com.MyStore.qa.testcases.LoginPageTest')
+data.setCell(13, 3, 26);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'SubheadingTest')
+data.setCell(14, 2, 'com.MyStore.qa.testcases.LoginPageTest')
+data.setCell(14, 3, 23);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'PageheadingTest')
+data.setCell(15, 2, 'com.MyStore.qa.testcases.LoginPageTest')
+data.setCell(15, 3, 21);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'signinbtn_enabled_test')
+data.setCell(16, 2, 'com.MyStore.qa.testcases.LoginPageTest')
+data.setCell(16, 3, 18);
+window.suiteTableData['STS_Assignment_Automation_Test']= { tableData: data, tableDiv: 'times-div-STS_Assignment_Automation_Test'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 40 seconds</span>
+              <div id="times-div-STS_Assignment_Automation_Test">
+              </div> <!-- times-div-STS_Assignment_Automation_Test -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-STS_Assignment_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for STS Assignment Automation Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-STS_Assignment_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-STS_Assignment_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.MyStore.qa.testcases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EmailLabelTest</span>
+                <span class="method-start">5241 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">5277 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">5412 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Link_forgotpasswd_test</span>
+                <span class="method-start">10035 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">11302 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">11424 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginWIth_ValidEmail_EmptyPasswd</span>
+                <span class="method-start">16347 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">17080 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">17201 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginWithValidCredentialTest</span>
+                <span class="method-start">21539 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">23412 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">23529 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginWith_EmptyEmail_EmptyPassswd</span>
+                <span class="method-start">29779 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">30792 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">30918 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginWith_EmptyEmail_InvalidPasswd</span>
+                <span class="method-start">36674 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">37440 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">37565 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginWith_EmptyEmail_ValidPasswd</span>
+                <span class="method-start">51831 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">53416 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">53542 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginWith_Enterbtn_test</span>
+                <span class="method-start">66177 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">78302 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">78413 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginWith_InvalidEmail_EmptyPasswd</span>
+                <span class="method-start">92658 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">95399 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">95534 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginWith_InvalidEmail_InvalidPasswd</span>
+                <span class="method-start">102461 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">103822 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">103950 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginWith_InvalidEmail_ValidPasswd</span>
+                <span class="method-start">112177 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">114491 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">114616 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginWith_ValidCredentialinCAPS</span>
+                <span class="method-start">120672 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">127172 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">127289 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginWith_ValidEmail_InvalidPasswd</span>
+                <span class="method-start">140773 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">148802 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">148914 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PasswdLabelTest</span>
+                <span class="method-start">159721 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">159747 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">159906 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SubheadingTest</span>
+                <span class="method-start">165890 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">165913 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">166039 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signinbtn_enabled_test</span>
+                <span class="method-start">174854 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">174872 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">175017 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PageheadingTest</span>
+                <span class="method-start">180186 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">180208 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
